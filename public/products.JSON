@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Laptop",
+        "currentPrice": 800,
+        "previousPrice": 1000,
+        "offerPercentage": 20,
+        "image": "https://img.freepik.com/free-photo/laptop-with-white-screen-isolated-white-wall_231208-8594.jpg?w=826&t=st=1701925919~exp=1701926519~hmac=8b935bce9c7eef491c89c9710ec276c8e1e38533ca02999edaf992abaa0e7e1a"
+    },
+    {
+        "name": "Ball",
+        "currentPrice": 30,
+        "previousPrice": 50,
+        "offerPercentage": 30,
+        "image": "https://img.freepik.com/free-photo/yellow-tenis-ball_144627-21443.jpg?w=740&t=st=1701925885~exp=1701926485~hmac=0130314479367fdf8543f82b137e4a86a454d96878e12fe63621044e1718a803"
+    },
+    {
+        "name": "Headphones",
+        "currentPrice": 60,
+        "previousPrice": 80,
+        "offerPercentage": 25,
+        "image": "https://img.freepik.com/free-photo/recording-human-icon-stereo-wireless_1232-3551.jpg?w=740&t=st=1701925954~exp=1701926554~hmac=d8deafbb19e1306f32bfe60b568030c1a3641146fa07fca99802b7757177752d"
+    },
+    {
+        "name": "Smartphone",
+        "currentPrice": 400,
+        "previousPrice": 500,
+        "offerPercentage": 20,
+        "image": "https://img.freepik.com/free-photo/phone-screen-with-abstract-marble-aesthetic_53876-145553.jpg?w=826&t=st=1701926030~exp=1701926630~hmac=bb5984af3c191f0929d6059308e68755786b9507590764590fc6bdc9075601f6"
+    },
+    {
+        "name": "Bookshelf",
+        "currentPrice": 150,
+        "previousPrice": 200,
+        "offerPercentage": 25,
+        "image": "https://img.freepik.com/free-photo/3d-contemporary-living-room-interior-modern-furniture_1048-14127.jpg?w=740&t=st=1701926102~exp=1701926702~hmac=d5511eb64c4e2ea162e50d4a5d89b92f2ec07c9dda0473c3c7a9909555f8682c"
+    },
+    {
+        "name": "Shoes",
+        "currentPrice": 80,
+        "previousPrice": 100,
+        "offerPercentage": 20,
+        "image": "https://img.freepik.com/free-photo/pair-trainers_144627-3800.jpg?w=740&t=st=1701926135~exp=1701926735~hmac=532e87d6a49203578cb6e4ac3d22a1665dbec00b63d816ce30d258b3b6e1fd26"
+    },
+    {
+        "name": "Coffeepot",
+        "currentPrice": 50,
+        "previousPrice": 70,
+        "offerPercentage": 30,
+        "image": "https://img.freepik.com/free-photo/hands-installing-filter-into-coffee-maker_23-2147834508.jpg?w=740&t=st=1701926172~exp=1701926772~hmac=bb7edf6f41c200e0b73eb9081815baaaebbff1646e362c933fc2071b95dca4e6"
+    },
+    {
+        "name": "Backpack",
+        "currentPrice": 40,
+        "previousPrice": 60,
+        "offerPercentage": 33,
+        "image": "https://img.freepik.com/free-photo/roadtrip-concept-with-backpack-flask_23-2149270128.jpg?w=826&t=st=1701926219~exp=1701926819~hmac=6527aa2514e483fdc32274ce71d3830623442b10bd046340d12d837bc2e171a7"
+    },
+    {
+        "name": "Console",
+        "currentPrice": 300,
+        "previousPrice": 400,
+        "offerPercentage": 25,
+        "image": "https://img.freepik.com/free-photo/laptop-with-joystick_144627-12150.jpg?w=826&t=st=1701926240~exp=1701926840~hmac=68f935c433d6f073bd96b226ca6bd4e279815f86266f12cd8bc773957492c28e"
+    },
+    {
+        "name": "Chair",
+        "currentPrice": 120,
+        "previousPrice": 150,
+        "offerPercentage": 20,
+        "image": "https://img.freepik.com/free-photo/home-appliance-seat-interior-ergonomic-sign_1172-512.jpg?w=740&t=st=1701926270~exp=1701926870~hmac=ad4d90e0d62e159918290ea1985df5ce569d6c57d4d1e9147239eada8de9bf5b"
+    }
+]
