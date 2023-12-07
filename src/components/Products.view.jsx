@@ -27,21 +27,21 @@ const Products = () => {
         setProductIndex(pre => pre - 1)
     }
 
+    const cardStyle = "flex-shrink-0 w-1/2 bg-white box-border mr-[0.12rem] mb-[0.12rem]";
+    const nextPrevButtonStyle = "shadow-md absolute p-[0.25rem] rounded-full z-20 bg-white cursor-pointer top-[6rem]";
+    const forwardButtonStyle = `${nextPrevButtonStyle} right-[0rem]`
+    const backwardButtonStyle = `${nextPrevButtonStyle} left-[0rem]`
+    const childColumnStyle = "flex w-full box-border mr-[0.12rem]";
+
     return (
         <div className="relative">
             {productIndex !== products.length - 1 && (
-                <div
-                    className="shadow-md absolute top-[6rem] right-[0rem] p-[0.25rem] rounded-full z-20 bg-white cursor-pointer"
-                    onClick={handlePreviousProduct}
-                >
+                <div className={forwardButtonStyle} onClick={handlePreviousProduct} >
                     <MdArrowForwardIos className="text-sm text-gray-400" />
                 </div>
             )}
             {productIndex !== 0 && (
-                <div
-                    className="shadow-md absolute top-[6rem] left-[0rem] p-[0.25rem] rounded-full z-20 bg-white cursor-pointer"
-                    onClick={handleNextProduct}
-                >
+                <div className={backwardButtonStyle} onClick={handleNextProduct} >
                     <MdArrowBackIos className="text-sm text-gray-400" />
                 </div>
             )}
@@ -50,26 +50,26 @@ const Products = () => {
                     <ProductDetailView product={products[productIndex]} />
                 </div>
                 <div className="flex-0 flex-shrink-0 w-[65%] h-full flex flex-col">
-                    <div className="flex w-full box-border mr-[0.12rem]">
+                    <div className={childColumnStyle}>
                         {product1?.name && (
-                            <div className="flex-shrink-0 w-1/2 bg-white box-border mr-[0.12rem] mb-[0.12rem]">
+                            <div className={cardStyle}>
                                 <ProductCard product={product1} />
                             </div>
                         )}
                         {product2?.name && (
-                            <div className="flex-shrink-0 w-1/2 bg-white box-border mr-[0.12rem] mb-[0.12rem]">
+                            <div className={cardStyle}>
                                 <ProductCard product={product2} />
                             </div>
                         )}
                     </div>
-                    <div className="flex w-full box-border mr-[0.12rem]">
+                    <div className={childColumnStyle}>
                         {product3?.name && (
-                            <div className="flex-shrink-0 w-1/2 bg-white box-border mr-[0.12rem] mb-[0.12rem]">
+                            <div className={cardStyle}>
                                 <ProductCard product={product3} />
                             </div>
                         )}
                         {product4?.name && (
-                            <div className="flex-shrink-0 w-1/2 bg-white box-border mr-[0.12rem] mb-[0.12rem]">
+                            <div className={cardStyle}>
                                 <ProductCard product={product4} />
                             </div>
                         )}
